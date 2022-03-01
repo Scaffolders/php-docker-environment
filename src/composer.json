@@ -1,0 +1,13 @@
+{
+  "name": "thele0/php-docker-environment",
+  "description": "Boilerplate project to work with LAMP (Linux + Apache + MariaDB + PHP)",
+  "authors": [
+    {
+      "name": "Leonardo Bertele Tosin",
+      "email": "leob.tosin@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}

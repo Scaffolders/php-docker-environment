@@ -5,7 +5,13 @@ This is a boilerplate project to work with LAMP (Linux + Apache + MariaDB + PHP)
 
 ## Configuration ##
 
-The only configuration needed to do, is setup the enviroment variables for database and some other services. You only need to create a file called <b>.env</b> on the project root, with the same content on the <b>.env-example</b>, but you can put the values for the enviroment variables whatever you want.
+1. Set up the environment variables for database and some other services. You only need to create a file called <b>.env</b> on the project root, with the same content on the <b>.env-example</b>, but you can put the values for the environment variables whatever you want.
+
+2. Install the dependencies of the project with composer, with the following command:
+
+```bash
+docker-compose exec php-apache-environment composer install
+```
 
 You only need to have Docker installed and running on your machine, no other requirement for this be running on your machine. The command to start the enviroment is:
 
