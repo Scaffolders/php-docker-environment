@@ -2,6 +2,15 @@
 
 This is a boilerplate project to work with LAMP (Linux + Apache + MariaDB + PHP). You can easily create a PHP enviroment without have to download and configure the enviroment on your machine. 
 
+## Features
+
+- [X] PHP 8.0
+- [X] MariaDB 10.5.8
+- [X] PhpMyAdmin
+- [X] xDebug 3
+- [X] Composer
+- [X] PDO
+- [ ] PHPUnit
 
 ## Configuration ##
 
