@@ -5,7 +5,7 @@ RUN docker-php-ext-install mysqli bcmath  pdo pdo_mysql && docker-php-ext-enable
 RUN docker-php-ext-enable pdo_mysql
 RUN apt-get update && apt-get upgrade -y
 
-# Download and nable xDebug
+# Download and enable xDebug
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug
 
